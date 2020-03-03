@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+.repair_apple {
+    width: 100%;
+    border: 5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrap {
+    width: 25%;
+    height: 400px;
+    border: 2px solid black;
+}
+/* стили для айфона */
+.repair_iphone {
+    width: 100%;
+    height: 90%;
+    border: 2px solid orange;
+    overflow: hidden;
+    background-image: url(images/repair_iphone_broken.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrap:hover .repair_iphone {
+    background-image: url(images/repair_iphone_ok.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1.5s;
+}
+/* стили для айпада */
+.repair_ipad {
+    width: 100%;
+    height: 90%;
+    border: 2px solid orange;
+    overflow: hidden;
+    background-image: url(images/repair_ipad_broke.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrap:hover .repair_ipad {
+    background-image: url(images/repair_ipad_ok.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1.5s;
+}
+
+.repair_watch {
+    width: 100%;
+    height: 90%;
+    border: 2px solid orange;
+    overflow: hidden;
+    background-image: url(images/repair_watch_broke.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrap:hover .repair_watch {
+    background-image: url(images/repair_watch_ok.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1.5s;
+}
+
+/* общие для ссылок */
+.wrap > a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrap:hover a {
+    color: #61dafb;
+    transition: 0.5s;
+}

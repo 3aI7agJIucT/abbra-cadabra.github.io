@@ -3,7 +3,7 @@
 }
 
 body {
-    /* background-color: black; */
+    background-color: black;
     width: 100%;
     font-family: 'Jura', sans-serif;
 }
@@ -20,10 +20,10 @@ li {
 }
 
 .head {
-    width: 980px;
+    width: 1024px;
     height: 100px;
     margin: 0 auto;
-    background-color: #035f70;
+    background-color: #282c34;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +31,7 @@ li {
 
 .head > a {
     text-decoration: none;
-    color: pink;
+    color: #fff;
     font-size: 3rem;
     font-weight: bold;
 }
@@ -47,39 +47,78 @@ li {
 }
 
 .menu {
-    width: 980px;
+    width: 1024px;
     margin: 0 auto;
-    background-color: pink;
 }
 
 main{
-    width: 980px;
+    width: 1024px;
     margin: 0 auto;
     border: 4px ridge #035f70;
-    background-color: #fff;
+    background-color: rgb(194, 194, 194);
 }
 
 .main-menu {
     display: flex;
+    background-color: #20232a; /* фон меню */
 }
 
 .main-menu > li {
     width: 16.66%;
-    cursor: pointer;
     text-align: center;
     border: 1px solid black;
+    cursor: pointer;
+}
+
+.main-menu > li > span {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    color: #61dafb;
+    display: block;
+    line-height: 40px;
 }
 
 .main-menu > li > a {
     display: block;
     width: 100%;
+    height: 40px;
     text-decoration: none;
-    text-align: center;
-    color: black;
+    color: #61dafb;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    background-color: #20232a;
+    padding-top: 10px;
+}
+
+.main-menu > li:nth-child(5) > a {
+    padding-top: 0;
+}
+
+.main-menu > li > a:hover, 
+.main-menu > li > span:hover { /* эффект при наведении */
+    background-color: #61dafb;
+    color: #20232a;
+    transition: 0.7s;
+}
+
+.sub-menu-repair, 
+.sub-menu-cont, 
+.repair-apple  {
+    display: none;
+}
+
+.main-menu > li:hover .sub-menu-repair, 
+.main-menu > li:hover .sub-menu-cont, 
+.sub-menu-repair > li:hover .repair-apple {
+    display: block;
+    position: absolute;
+}
+
+.sub-menu-repair > li > a:hover, 
+.repair-apple > li > a:hover, 
+.sub-menu-cont > li > a:hover {
+    color: #20232a;
+    background-color: #61dafb;
 }
 
 .sub-menu-cont > li > a > img {
@@ -87,60 +126,54 @@ main{
     height: 20px;
 }
 
-.sub-menu-cont > li > a {
-    text-decoration: none;
-    color: black;
-}
-
-.sub-menu-repair, .sub-menu-cont, .repair-apple  {
-    display: none;
-}
-
-.main-menu > li:hover .sub-menu-repair, .main-menu > li:hover .sub-menu-cont, .sub-menu-repair > li:hover .repair-apple {
-    display: block;
-    position: absolute;
-}
-
 .repair-apple {
     top: 0;
-    left: 163px;
+    left: 169px;
 }
 
-.sub-menu-repair > li, .sub-menu-cont > li, .repair-apple > li {
+.sub-menu-repair > li, 
+.sub-menu-cont > li, 
+.repair-apple > li {
     border: 1px solid black;
-    background-color: pink;
-    width: 163px;
+    background-color: #20232a;
+    width: 169px;
+    height: 40px;
+    line-height: 40px;
 }
 
-.sub-menu-repair > li > a {
+.sub-menu-repair > li > a, 
+.repair-apple > li > a, 
+.sub-menu-cont > li > a {
     display: block;
     text-decoration: none;
     text-align: center;
-    color: black;
-}
-
-.main-menu > li:hover, .sub-menu-repair > li:hover, .main-menu > li:hover, .sub-menu-cont > li:hover, .repair-apple > li:hover {
-    background-color: #fff;
-    transition: 0.7s;
+    color: #61dafb;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 p {
-    font-size: 40px;
+    font-size: 34px;
 }
 
-.cont-phones > li > img, h3 > img, #clock1, #clock2 {
+.cont-phones > li > img, 
+h3 > img, 
+#clock1, 
+#clock2 {
     width: 20px;
     height: 20px;
 }
 
-.cont-phones > li, .address > li {
+.cont-phones > li, 
+.address > li {
     font-weight: bold;
     font-size: 1.1rem;
+    color: #fff;
 }
 
 .address > li > a {
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 
 #contacts {
@@ -184,21 +217,44 @@ p {
   height: 100%;
 }
 
-.repair-container {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-.repair, .repair-iphone, .repair-ipad, .repair-ipod, .repair-watch, .repair-macbook {
-    border: 1px solid black;
-    width: 242px;
+.slider__item > img {
+    width: 1024px;
+    height: 400px;
 }
 
-.repair-iphone {
-    background-image: url(repair_iphone.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+.slider__item {
+    position: relative;
+}
+
+.details {
+    width: 165px;
+    height: 40px;
+    background-color: #282c34;
+    border-radius: 4px;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+
+.details > a {
+    display: block;
+    height: 100%;
+    color: #61dafb;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.details > a:hover {
+    color: #282c34;
+    background-color: #61dafb;
+    border-radius: 4px;
+    transition: 0.7s;
+}
+
+.info > h3 > a {
+    color: black;
+    text-decoration: none;
 }

@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.news-container {
+    width: 100%;
+    border: 5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-item {
+    width: 25%;
+    border: 2px solid orange;
+    height: 350px;
+    overflow: hidden;
+}
+
+.news-item > img {
+    width: 100%;
+}
