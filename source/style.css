@@ -54,8 +54,8 @@ li {
 main{
     width: 1024px;
     margin: 0 auto;
-    border: 4px ridge #035f70;
-    background-color: rgb(194, 194, 194);
+    /* border: 4px ridge #035f70; */
+    background-color: rgb(156, 156, 156);
 }
 
 .main-menu {

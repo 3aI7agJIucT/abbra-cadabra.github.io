@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.repair_apple_iphone {
+    width: 100%;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iphone_11_pro_max,
+.iphone_11_pro,
+.iphone_11,
+.iphone_xs_max,
+.iphone_xs {
+    width: 25%;
+    margin: 20px 0;
+}
+
+.iphone_11_pro_max > a,
+.iphone_11_pro > a,
+.iphone_11 > a,
+.iphone_xs_max > a,
+.iphone_xs > a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.iphone_11_pro_max > a:hover,
+.iphone_11_pro > a:hover,
+.iphone_11 > a:hover,
+.iphone_xs_max > a:hover,
+.iphone_xs > a:hover {
+    color: #61dafb;
+    transition: 0.5s;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.iphone_11_pro_max_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone11promax_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone_11_pro_max:hover .iphone11_pro_max_img {
+    background-image: url(images/iphone/iphone11promax_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.iphone_11_pro_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone11promax_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone_11_pro:hover .iphone11_pro_img {
+    background-image: url(images/iphone/iphone11promax_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.iphone_11_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone11promax_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone_11:hover .iphone11_img {
+    background-image: url(images/iphone/iphone11promax_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.iphone_xs_max_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone11promax_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone_xs_max:hover .iphone_xs_max_img {
+    background-image: url(images/iphone/iphone11promax_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.iphone_xs_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone11promax_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone_xs_max:hover .iphone_xs_img {
+    background-image: url(images/iphone/iphone11promax_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}

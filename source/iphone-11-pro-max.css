@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.repair_iphone_11_pro_max, 
+.our_pluses {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.iphone_11_pro_max_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone11promax_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.repair_iphone_11_pro_max:hover .iphone_11_pro_max_img {
+    background-image: url(images/iphone/iphone11promax_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.repair_iphone_11_pro_max:hover h2 {
+    color: #61dafb;
+    transition: 1.5s;
+}
+
+.iphone_11_pro_max {
+    width: 40%;
+}
+
+.quality > img,
+.speed > img,
+.warranty > img {
+    width: 75px;
+    height: 75px;
+}
+
+.our_pluses h3 {
+    color: #61dafb;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.price_table {
+    overflow: auto;
+    width: 60%;
+ }
+
+.table {
+    color: #333333;
+    width: 100%;
+}
+
+.table th {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    background: #61dafb;
+    padding: 8px;
+    border: 2px solid #035f70;
+}
+
+.table tr {
+    color: #fff;
+    /* background:#ffffff; */
+    border: 1px solid #035f70;
+}
+
+.table tr:hover {
+    background: #fff;
+    color: black;
+}
+
+.table td {
+    font-size: 1.1rem;
+    border-left: 2px solid #035f70;
+    border-right: 2px solid #035f70;
+    padding: 8px;
+    text-align: center;
+}
+
+.table td:nth-of-type(1) {
+    text-align: left;
+}
