@@ -21,7 +21,7 @@
 .repair_watch > a,
 .repair_macbook > a {
     text-decoration: none;
-    color: black;
+    color: #fff;
     display: block;
     font-size: 2rem;
     font-weight: bold;

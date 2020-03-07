@@ -6,6 +6,7 @@ body {
     background-color: black;
     width: 100%;
     font-family: 'Jura', sans-serif;
+    color: #fff;
 }
 
 header {
@@ -55,7 +56,7 @@ main{
     width: 1024px;
     margin: 0 auto;
     /* border: 4px ridge #035f70; */
-    background-color: rgb(156, 156, 156);
+    background-color: black;
 }
 
 .main-menu {

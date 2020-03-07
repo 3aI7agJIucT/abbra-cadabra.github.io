@@ -83,13 +83,13 @@ h2 {
 
 .table tr {
     color: #fff;
-    /* background:#ffffff; */
     border: 1px solid #035f70;
 }
 
 .table tr:hover {
     background: #fff;
     color: black;
+    /* font-weight: bold; */
 }
 
 .table td {
