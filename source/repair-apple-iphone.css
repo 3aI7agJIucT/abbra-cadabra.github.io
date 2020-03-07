@@ -31,7 +31,17 @@ h2 {
 .iphone_8,
 .iphone_7_plus,
 .iphone_7,
-.iphone_se {
+.iphone_se,
+.iphone_6s_plus,
+.iphone_6s,
+.iphone_6_plus,
+.iphone_6,
+.iphone_5c,
+.iphone_5s,
+.iphone_5,
+.iphone_4s,
+.iphone_4,
+.iphone_4_4s {
     width: 25%;
     margin: 20px 0;
 }
@@ -47,7 +57,17 @@ h2 {
 .iphone_8 > a,
 .iphone_7_plus > a,
 .iphone_7 > a,
-.iphone_se > a {
+.iphone_se > a,
+.iphone_6s_plus > a,
+.iphone_6s > a,
+.iphone_6_plus > a,
+.iphone_6 > a,
+.iphone_5c > a,
+.iphone_5s > a,
+.iphone_5 > a,
+.iphone_4s > a,
+.iphone_4 > a,
+.iphone_4_4s > a {
     text-decoration: none;
     color: #fff;
     display: block;
@@ -67,7 +87,17 @@ h2 {
 .iphone_8 > a:hover,
 .iphone_7_plus > a:hover,
 .iphone_7 > a:hover,
-.iphone_se > a:hover {
+.iphone_se > a:hover,
+.iphone_6s_plus > a:hover,
+.iphone_6s > a:hover,
+.iphone_6_plus > a:hover,
+.iphone_6 > a:hover,
+.iphone_5c > a:hover,
+.iphone_5s > a:hover,
+.iphone_5 > a:hover,
+.iphone_4s > a:hover,
+.iphone_4 > a:hover,
+.iphone_4_4s > a:hover {
     color: #61dafb;
     transition: 0.5s;
 }
@@ -246,6 +276,155 @@ h2 {
 
 .iphone_se:hover .iphone_se_img {
     background-image: url(images/iphone/iphonese_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.iphone_6s_plus_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone6splus_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone_6s_plus:hover .iphone_6s_plus_img {
+    background-image: url(images/iphone/iphone6splus_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+.iphone_6s_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone6s_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone_6s:hover .iphone_6s_img {
+    background-image: url(images/iphone/iphone6s_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.iphone_6_plus_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone6plus_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone_6_plus:hover .iphone_6_plus_img {
+    background-image: url(images/iphone/iphone6plus_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.iphone_6_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone6_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone_6:hover .iphone_6_img {
+    background-image: url(images/iphone/iphone6_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.iphone_5c_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone5c_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone_5c:hover .iphone_5c_img {
+    background-image: url(images/iphone/iphone5c_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.iphone_5s_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone5s_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone_5s:hover .iphone_5s_img {
+    background-image: url(images/iphone/iphone5s_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.iphone_5_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone5_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone_5:hover .iphone_5_img {
+    background-image: url(images/iphone/iphone5_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.iphone_4s_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone4s_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone_4s:hover .iphone_4s_img {
+    background-image: url(images/iphone/iphone4s_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.iphone_4_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone4_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone_4:hover .iphone_4_img {
+    background-image: url(images/iphone/iphone4_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.iphone_4_4s_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone4_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone_4_4s:hover .iphone_4_4s_img {
+    background-image: url(images/iphone/iphone4s_ok_300.png);
     background-position: center;
     background-repeat: no-repeat;
     transition: 1.5s;

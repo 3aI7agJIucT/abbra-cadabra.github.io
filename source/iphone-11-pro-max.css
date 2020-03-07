@@ -13,10 +13,12 @@ h3 {
     text-align: center;
 }
 
-.repair_iphone_11_pro_max, 
+.repair_iphone_11_pro_max,
+.repair_iphone_11_pro,
+.repair_iphone_11, 
 .our_pluses {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
 }
 
@@ -35,12 +37,46 @@ h3 {
     transition: 1.5s;
 }
 
-.repair_iphone_11_pro_max:hover h2 {
+.iphone_11_pro_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone11pro_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.repair_iphone_11_pro:hover .iphone_11_pro_img {
+    background-image: url(images/iphone/iphone11pro_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.iphone_11_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/iphone/iphone11_broken_300bw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.repair_iphone_11:hover .iphone_11_img {
+    background-image: url(images/iphone/iphone11_ok_300.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.repair_iphone_11_pro_max:hover h2,
+.repair_iphone_11_pro:hover h2,
+.repair_iphone_11:hover h2 {
     color: #61dafb;
     transition: 1.5s;
 }
 
-.iphone_11_pro_max {
+.iphone_11_pro_max,
+.iphone_11_pro,
+.iphone_11 {
     width: 40%;
 }
 
@@ -52,7 +88,7 @@ h3 {
 }
 
 .our_pluses h3 {
-    color: #61dafb;
+    color: #fff;
 }
 
 h2 {
