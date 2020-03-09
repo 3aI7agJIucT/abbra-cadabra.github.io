@@ -36,62 +36,45 @@
     transition: 0.5s;
 }
 
-.repair_iphone_img {
+.repair_iphone_img, .repair_iphone:hover .repair_iphone_img,
+.repair_ipad_img, .repair_ipad:hover .repair_ipad_img,
+.repair_watch_img, .repair_watch:hover .repair_watch_img,
+.repair_macbook_img, .repair_macbook:hover .repair_macbook_img {
     width: 100%;
     height: 300px;
-    background-image: url(images/iphone/iphone11promax_broken_300bw.png);
     background-position: center;
     background-repeat: no-repeat;
+    transition: 1.5s;
+}
+
+.repair_iphone_img |{
+    background-image: url(images/iphone/iphone11promax_broken_300bw.png);
 }
 
 .repair_iphone:hover .repair_iphone_img {
     background-image: url(images/iphone/iphone11promax_ok_300.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 1.5s;
 }
 
 .repair_ipad_img {
-    width: 100%;
-    height: 300px;
     background-image: url(images/iphone/ipadpro12_broken_300bw.png);
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .repair_ipad:hover .repair_ipad_img {
     background-image: url(images/iphone/ipadpro12_ok_300.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 1.5s;
 }
 
 .repair_watch_img {
-    width: 100%;
-    height: 300px;
     background-image: url(images/iphone/watch_broken_300bw.png);
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .repair_watch:hover .repair_watch_img {
     background-image: url(images/iphone/watch_ok_300.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 1.5s;
 }
 
 .repair_macbook_img {
-    width: 100%;
-    height: 300px;
     background-image: url(images/iphone/macbookpro2016_broken_300bw.png);
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .repair_macbook:hover .repair_macbook_img {
     background-image: url(images/iphone/macbookpro2016_ok_300.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 1.5s;
 }
