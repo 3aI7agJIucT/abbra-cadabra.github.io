@@ -13,6 +13,32 @@ h3 {
     text-align: center;
 }
 
+.popular_breakdowns > h3 {
+    font-size: 1.3rem;
+    margin-top: 5px;
+}
+
+.breakdowns_list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.breakdowns_list {
+    margin-top: 10px;
+}
+
+.breakdowns_list > ul > li {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.breakdowns_list > ul > li > img {
+    width: 40px;
+    height: 40px;
+}
+
 .repair_iphone_11_pro_max,
 .repair_iphone_11_pro,
 .repair_iphone_11,
@@ -274,7 +300,7 @@ h3 {
 .iphone_5c,
 .iphone_5,
 .iphone_4_4s {
-    width: 40%;
+    width: 35%;
 }
 
 .quality > img,
@@ -282,6 +308,8 @@ h3 {
 .warranty > img {
     width: 75px;
     height: 75px;
+    display: block;
+    margin: 0 auto;
 }
 
 .our_pluses h3 {
@@ -297,7 +325,7 @@ h2 {
 
 .price_table {
     overflow: auto;
-    width: 60%;
+    width: 65%;
  }
 
 .table {

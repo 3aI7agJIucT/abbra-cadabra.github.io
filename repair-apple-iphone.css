@@ -13,11 +13,31 @@ h2 {
     text-align: center;
 }
 
-.repair_apple_iphone {
+h3 {
+    font-size: 1.3rem;
+    margin-top: 5px;
+}
+
+.repair_apple_iphone,
+.breakdowns_list {
     width: 100%;
-    /* border: 3px solid black; */
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.breakdowns_list {
+    margin-top: 10px;
+}
+
+.breakdowns_list > ul > li {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.breakdowns_list > ul > li > img {
+    width: 40px;
+    height: 40px;
 }
 
 .iphone_11_pro_max,
