@@ -26,18 +26,51 @@ h3 {
     justify-content: space-around;
 }
 
-.breakdowns_list {
+/* .breakdowns_list {
     margin-top: 10px;
 }
 
 .breakdowns_list > ul > li {
     font-size: 1.5rem;
     margin: 5px 0;
-}
+} */
 
-.breakdowns_list > ul > li > img {
+.breakdowns_list img {
     width: 40px;
     height: 40px;
+    vertical-align: middle;
+}
+
+.power_breakdown,
+.battery_breakdown,
+.charge_breakdown,
+.water_breakdown,
+.glass_breakdown,
+.display_breakdown {
+    position: relative;
+}
+
+.power_description,
+.battery_description,
+.charge_description,
+.water_description,
+.glass_description,
+.display_description {
+    display: none;
+}
+
+.power_breakdown:hover .power_description,
+.battery_breakdown:hover .battery_description,
+.charge_breakdown:hover .charge_description,
+.water_breakdown:hover .water_description,
+.glass_breakdown:hover .glass_description,
+.display_breakdown:hover .display_description {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: 25px;
+    left: 40px;
+    background-color: black;
 }
 
 .iphone_11_pro_max,
@@ -303,22 +336,6 @@ h3 {
 .iphone_5:hover .iphone_5_img {
     background-image: url(images/iphone/iphone5_ok_300.png);
 }
-
-/* .iphone_4s_img {
-    background-image: url(images/iphone/iphone4s_broken_300bw.png);
-}
-
-.iphone_4s:hover .iphone_4s_img {
-    background-image: url(images/iphone/iphone4s_ok_300.png);
-}
-
-.iphone_4_img {
-    background-image: url(images/iphone/iphone4_broken_300bw.png);
-}
-
-.iphone_4:hover .iphone_4_img {
-    background-image: url(images/iphone/iphone4_ok_300.png);
-} */
 
 .iphone_4_4s_img {
     background-image: url(images/iphone/iphone4_ok_300.png);
