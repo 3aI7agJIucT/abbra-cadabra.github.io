@@ -23,14 +23,13 @@ h3 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 /* .breakdowns_list {
     margin-top: 10px;
-}
+} */
 
-.breakdowns_list > ul > li {
+/* .breakdowns_list > ul > li {
     font-size: 1.5rem;
     margin: 5px 0;
 } */
@@ -46,8 +45,19 @@ h3 {
 .charge_breakdown,
 .water_breakdown,
 .glass_breakdown,
-.display_breakdown {
+.display_breakdown,
+.touch_breakdown,
+.body_breakdown,
+.speaker_breakdown,
+.mic_breakdown,
+.home_breakdown,
+.camera_breakdown,
+.cell_breakdown,
+.wifi_breakdown,
+.itunes_breakdown {
     position: relative;
+    width: 25%;
+    margin: 5px 0;
 }
 
 .power_description,
@@ -55,7 +65,16 @@ h3 {
 .charge_description,
 .water_description,
 .glass_description,
-.display_description {
+.display_description,
+.touch_description,
+.body_description,
+.speaker_description,
+.mic_description,
+.home_description,
+.camera_description,
+.cell_description,
+.wifi_description,
+.itunes_description {
     display: none;
 }
 
@@ -64,13 +83,24 @@ h3 {
 .charge_breakdown:hover .charge_description,
 .water_breakdown:hover .water_description,
 .glass_breakdown:hover .glass_description,
-.display_breakdown:hover .display_description {
+.display_breakdown:hover .display_description,
+.touch_breakdown:hover .touch_description,
+.body_breakdown:hover .body_description,
+.speaker_breakdown:hover .speaker_description,
+.mic_breakdown:hover .mic_description,
+.home_breakdown:hover .home_description,
+.camera_breakdown:hover .camera_description,
+.cell_breakdown:hover .cell_description,
+.wifi_breakdown:hover .wifi_description,
+.itunes_breakdown:hover .itunes_description {
     display: block;
     position: absolute;
     z-index: 5;
     top: 25px;
     left: 40px;
-    background-color: black;
+    background-color: #61dafb;
+    color: black;
+    border-radius: 5px;
 }
 
 .iphone_11_pro_max,

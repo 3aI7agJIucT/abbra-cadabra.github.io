@@ -5,6 +5,13 @@
 .news-container {
     width: 100%;
     border: 5px solid red;
+}
+
+.apple-news,
+.it-news,
+.gadget-news {
+    width: 100%;
+    border: 1px solid white;
     display: flex;
     flex-wrap: wrap;
 }
@@ -14,6 +21,13 @@
     border: 2px solid orange;
     height: 350px;
     overflow: hidden;
+    display: none;
+}
+
+.apple-news:hover .news-item,
+.it-news:hover .news-item,
+.gadget-news:hover .news-item {
+    display: block;
 }
 
 .news-item > img {
