@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+    font-family: 'Jura', sans-serif;
+    color: #fff;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+li {
+    list-style: none;
+}
+
+.head {
+    width: 1024px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #282c34;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.head > img {
+    width: 100px;
+    height: 100px;
+}
+
+.head > h2 {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.menu {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+main{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.main-menu {
+    display: flex;
+    background-color: #20232a; /* фон меню */
+}
+
+.main-menu > li {
+    width: 16.66%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.main-menu > li > span {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #61dafb;
+    display: block;
+    line-height: 40px;
+}
+
+.main-menu > li > a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+    color: #61dafb;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: #20232a;
+    padding-top: 10px;
+}
+
+.main-menu > li:nth-child(5) > a {
+    padding-top: 0;
+}
+
+.main-menu > li > a:hover, 
+.main-menu > li > span:hover {
+    background-color: #61dafb;
+    color: #20232a;
+    transition: 0.7s;
+}
+
+.sub-menu-repair, 
+.sub-menu-cont, 
+.repair-apple  {
+    display: none;
+}
+
+.main-menu > li:hover .sub-menu-repair, 
+.main-menu > li:hover .sub-menu-cont, 
+.sub-menu-repair > li:hover .repair-apple {
+    display: block;
+    position: absolute;
+}
+
+.sub-menu-repair > li > a:hover, 
+.repair-apple > li > a:hover, 
+.sub-menu-cont > li > a:hover {
+    color: #20232a;
+    background-color: #61dafb;
+}
+
+.sub-menu-cont > li > a > img {
+    width: 20px;
+    height: 20px;
+}
+
+.repair-apple {
+    top: 0;
+    left: 169px;
+}
+
+.sub-menu-repair > li, 
+.sub-menu-cont > li, 
+.repair-apple > li {
+    border: 1px solid black;
+    background-color: #20232a;
+    width: 169px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.sub-menu-repair > li > a, 
+.repair-apple > li > a, 
+.sub-menu-cont > li > a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #61dafb;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 34px;
+}
+
+.cont-phones > li > img, 
+h3 > img, 
+#clock1, 
+#clock2 {
+    width: 20px;
+    height: 20px;
+}
+
+.cont-phones > li, 
+.address > li {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.address > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#contacts {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.graph {
+    display: inline-block;
+    font-size: 1.3rem;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.cont-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+#map_pointer {
+    width: 22px;
+    height: 22px;
+}
+
+#email {
+    width: 22px;
+    height: 15px;
+}
+
+.info > h2 {
+    margin: 20px 0 5px 0;
+}
+
+.slider__item > img {
+    width: 1024px;
+    height: 400px;
+}
+
+.slider__item {
+    position: relative;
+}
+
+.details {
+    width: 165px;
+    height: 40px;
+    background-color: #282c34;
+    border-radius: 4px;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+
+.details > a {
+    display: block;
+    height: 100%;
+    color: #61dafb;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.details > a:hover {
+    color: #282c34;
+    background-color: #61dafb;
+    border-radius: 4px;
+    transition: 0.7s;
+}
+
+.info > h3 > a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    width: 1024px;
+    height: 200px;
+    background-color: #282c34;
+    margin: 0 auto;
+}
