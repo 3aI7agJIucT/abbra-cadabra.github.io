@@ -18,7 +18,7 @@ h3 {
     margin-top: 5px;
 }
 
-.repair_apple_iphone,
+.repair_apple_ipad,
 .breakdowns_list {
     width: 100%;
     display: flex;
@@ -103,54 +103,30 @@ h3 {
     border-radius: 5px;
 }
 
-.iphone_11_pro_max,
-.iphone_11_pro,
-.iphone_11,
-.iphone_xs_max,
-.iphone_xs,
-.iphone_xr,
-.iphone_x,
-.iphone_8_plus,
-.iphone_8,
-.iphone_7_plus,
-.iphone_7,
-.iphone_se,
-.iphone_6s_plus,
-.iphone_6s,
-.iphone_6_plus,
-.iphone_6,
-.iphone_5c,
-.iphone_5s,
-.iphone_5,
-.iphone_4s,
-.iphone_4,
-.iphone_4_4s {
+.ipad_air_2,
+.ipad_air,
+.ipad_mini_4,
+.ipad_mini_3,
+.ipad_mini_2,
+.ipad_mini,
+.ipad_4,
+.ipad_3,
+.ipad_2,
+.ipad_1 {
     width: 25%;
     margin: 20px 0;
 }
 
-.iphone_11_pro_max > a,
-.iphone_11_pro > a,
-.iphone_11 > a,
-.iphone_xs_max > a,
-.iphone_xs > a,
-.iphone_xr > a,
-.iphone_x > a,
-.iphone_8_plus > a,
-.iphone_8 > a,
-.iphone_7_plus > a,
-.iphone_7 > a,
-.iphone_se > a,
-.iphone_6s_plus > a,
-.iphone_6s > a,
-.iphone_6_plus > a,
-.iphone_6 > a,
-.iphone_5c > a,
-.iphone_5s > a,
-.iphone_5 > a,
-.iphone_4s > a,
-.iphone_4 > a,
-.iphone_4_4s > a {
+.ipad_air_2 > a,
+.ipad_air > a,
+.ipad_mini_4 > a,
+.ipad_mini_3 > a,
+.ipad_mini_2 > a,
+.ipad_mini > a,
+.ipad_4 > a,
+.ipad_3 > a,
+.ipad_2 > a,
+.ipad_1 > a {
     text-decoration: none;
     color: #fff;
     display: block;
@@ -159,54 +135,30 @@ h3 {
     text-align: center;
 }
 
-.iphone_11_pro_max > a:hover,
-.iphone_11_pro > a:hover,
-.iphone_11 > a:hover,
-.iphone_xs_max > a:hover,
-.iphone_xs > a:hover,
-.iphone_xr > a:hover,
-.iphone_x > a:hover,
-.iphone_8_plus > a:hover,
-.iphone_8 > a:hover,
-.iphone_7_plus > a:hover,
-.iphone_7 > a:hover,
-.iphone_se > a:hover,
-.iphone_6s_plus > a:hover,
-.iphone_6s > a:hover,
-.iphone_6_plus > a:hover,
-.iphone_6 > a:hover,
-.iphone_5c > a:hover,
-.iphone_5s > a:hover,
-.iphone_5 > a:hover,
-.iphone_4s > a:hover,
-.iphone_4 > a:hover,
-.iphone_4_4s > a:hover {
+.ipad_air_2 > a:hover,
+.ipad_air > a:hover,
+.ipad_mini_4 > a:hover,
+.ipad_mini_3 > a:hover,
+.ipad_mini_2 > a:hover,
+.ipad_mini > a:hover,
+.ipad_4 > a:hover,
+.ipad_3 > a:hover,
+.ipad_2 > a:hover,
+.ipad_1 > a:hover {
     color: #61dafb;
     transition: 0.5s;
 }
 
-.iphone_11_pro_max_img, .iphone_11_pro_max:hover .iphone_11_pro_max_img,
-.iphone_11_pro_img, .iphone_11_pro:hover .iphone_11_pro_img,
-.iphone_11_img, .iphone_11:hover .iphone_11_img,
-.iphone_xs_max_img, .iphone_xs_max:hover .iphone_xs_max_img,
-.iphone_xs_img, .iphone_xs:hover .iphone_xs_img,
-.iphone_xr_img, .iphone_xr:hover .iphone_xr_img,
-.iphone_x_img, .iphone_x:hover .iphone_x_img,
-.iphone_8_plus_img, .iphone_8_plus:hover .iphone_8_plus_img,
-.iphone_8_img, .iphone_8:hover .iphone_8_img,
-.iphone_7_plus_img, .iphone_7_plus:hover .iphone_7_plus_img,
-.iphone_7_img, .iphone_7:hover .iphone_7_img,
-.iphone_se_img, .iphone_se:hover .iphone_se_img,
-.iphone_6s_plus_img, .iphone_6s_plus:hover .iphone_6s_plus_img,
-.iphone_6s_img, .iphone_6s:hover .iphone_6s_img,
-.iphone_6_plus_img, .iphone_6_plus:hover .iphone_6_plus_img,
-.iphone_6_img, .iphone_6:hover .iphone_6_img,
-.iphone_5c_img, .iphone_5c:hover .iphone_5c_img,
-.iphone_5s_img, .iphone_5s:hover .iphone_5s_img,
-.iphone_5_img, .iphone_5:hover .iphone_5_img,
-.iphone_4s_img, .iphone_4s:hover .iphone_4s_img,
-.iphone_4_img, .iphone_4:hover .iphone_4_img,
-.iphone_4_4s_img, .iphone_4_4s:hover .iphone_4_4s_img {
+.ipad_air_2_img, .ipad_air_2:hover .ipad_air_2_img,
+.ipad_air_img, .ipad_air:hover .ipad_air_img,
+.ipad_mini_4_img, .ipad_mini_4:hover .ipad_mini_4_img,
+.ipad_mini_3_img, .ipad_mini_3:hover .ipad_mini_3_img,
+.ipad_mini_2_img, .ipad_mini_2:hover .ipad_mini_2_img,
+.ipad_mini_img, .ipad_mini:hover .ipad_mini_img,
+.ipad_4_img, .ipad_4:hover .ipad_4_img,
+.ipad_3_img, .ipad_3:hover .ipad_3_img,
+.ipad_2_img, .ipad_2:hover .ipad_2_img,
+.ipad_1_img, .ipad_1:hover .ipad_1_img {
     width: 100%;
     height: 300px;
     background-position: center;
@@ -214,163 +166,82 @@ h3 {
     transition: 1.5s;
 }
 
-
-.iphone_11_pro_max_img {
-    background-image: url(images/iphone/iphone11promax_broken_300bw.png);
+.ipad_air_2_img {
+    background-image: url(images/ipad/ipadair2_broken_255bw.png);
 }
 
-.iphone_11_pro_max:hover .iphone_11_pro_max_img {
-    background-image: url(images/iphone/iphone11promax_ok_300.png);
+.ipad_air_2:hover .ipad_air_2_img {
+    background-image: url(images/ipad/ipadair2_ok_255.png);
 }
 
-.iphone_11_pro_img {
-    background-image: url(images/iphone/iphone11pro_broken_300bw.png);
+.ipad_air_img {
+    background-image: url(images/ipad/ipadair_broken_255bw.png);
 }
 
-.iphone_11_pro:hover .iphone_11_pro_img {
-    background-image: url(images/iphone/iphone11pro_ok_300.png);
+.ipad_air:hover .ipad_air_img {
+    background-image: url(images/ipad/ipadair_ok_255.png);
 }
 
-.iphone_11_img {
-    background-image: url(images/iphone/iphone11_broken_300bw.png);
+.ipad_mini_4_img {
+    background-image: url(images/ipad/ipadmini4_broken_200bw.png);
 }
 
-.iphone_11:hover .iphone_11_img {
-    background-image: url(images/iphone/iphone11_ok_300.png);
+.ipad_mini_4:hover .ipad_mini_4_img {
+    background-image: url(images/ipad/ipadmini4_ok_200.png);
 }
 
-.iphone_xs_max_img {
-    background-image: url(images/iphone/iphonexsmax_broken_300bw.png);
+.ipad_mini_3_img {
+    background-image: url(images/ipad/ipadmini3_broken_200bw.png);
 }
 
-.iphone_xs_max:hover .iphone_xs_max_img {
-    background-image: url(images/iphone/iphonexsmax_ok_300.png);
+.ipad_mini_3:hover .ipad_mini_3_img {
+    background-image: url(images/ipad/ipadmini3_ok_200.png);
 }
 
-.iphone_xs_img {
-    background-image: url(images/iphone/iphonexs_broken_300bw.png);
+.ipad_mini_2_img {
+    background-image: url(images/ipad/ipadmini2_broken_200bw.png);
 }
 
-.iphone_xs:hover .iphone_xs_img {
-    background-image: url(images/iphone/iphonexs_ok_300.png);
+.ipad_mini_2:hover .ipad_mini_2_img {
+    background-image: url(images/ipad/ipadmini2_ok_200.png);
 }
 
-.iphone_xr_img {
-    background-image: url(images/iphone/iphonexr_broken_300bw.png);
+.ipad_mini_img {
+    background-image: url(images/ipad/ipadmini_broken_200bw.png);
 }
 
-.iphone_xr:hover .iphone_xr_img {
-    background-image: url(images/iphone/iphonexr_ok_300.png);
+.ipad_mini:hover .ipad_mini_img {
+    background-image: url(images/ipad/ipadmini_ok_200.png);
 }
 
-.iphone_x_img {
-    background-image: url(images/iphone/iphonex_broken_300bw.png);
+.ipad_4_img {
+    background-image: url(images/ipad/ipad4_broken_255bw.png);
 }
 
-.iphone_x:hover .iphone_x_img {
-    background-image: url(images/iphone/iphonex_ok_300.png);
+.ipad_4:hover .ipad_4_img {
+    background-image: url(images/ipad/ipad4_ok_255.png);
 }
 
-.iphone_8_plus_img {
-    background-image: url(images/iphone/iphone8plus_broken_300bw.png);
+.ipad_3_img {
+    background-image: url(images/ipad/ipad3_broken_255bw.png);
 }
 
-.iphone_8_plus:hover .iphone_8_plus_img {
-    background-image: url(images/iphone/iphone8plus_ok_300.png);
+.ipad_3:hover .ipad_3_img {
+    background-image: url(images/ipad/ipad3_ok_255.png);
 }
 
-.iphone_8_img {
-    background-image: url(images/iphone/iphone8_broken_300bw.png);
+.ipad_2_img {
+    background-image: url(images/ipad/ipad2_broken_255bw.png);
 }
 
-.iphone_8:hover .iphone_8_img {
-    background-image: url(images/iphone/iphone8_ok_300.png);
+.ipad_2:hover .ipad_2_img {
+    background-image: url(images/ipad/ipad2_ok_255.png);
 }
 
-.iphone_7_plus_img {
-    background-image: url(images/iphone/iphone7plus_broken_300bw.png);
+.ipad_1_img {
+    background-image: url(images/ipad/ipad1_broken_255bw.png);
 }
 
-.iphone_7_plus:hover .iphone_7_plus_img {
-    background-image: url(images/iphone/iphone7plus_ok_300.png);
-}
-
-.iphone_7_img {
-    background-image: url(images/iphone/iphone7_broken_300bw.png);
-}
-
-.iphone_7:hover .iphone_7_img {
-    background-image: url(images/iphone/iphone7_ok_300.png);
-}
-
-.iphone_se_img {
-    background-image: url(images/iphone/iphonese_broken_300bw.png);
-}
-
-.iphone_se:hover .iphone_se_img {
-    background-image: url(images/iphone/iphonese_ok_300.png);
-}
-
-.iphone_6s_plus_img {
-    background-image: url(images/iphone/iphone6splus_broken_300bw.png);
-}
-
-.iphone_6s_plus:hover .iphone_6s_plus_img {
-    background-image: url(images/iphone/iphone6splus_ok_300.png);
-}
-
-.iphone_6s_img {
-    background-image: url(images/iphone/iphone6s_broken_300bw.png);
-}
-
-.iphone_6s:hover .iphone_6s_img {
-    background-image: url(images/iphone/iphone6s_ok_300.png);
-}
-
-.iphone_6_plus_img {
-    background-image: url(images/iphone/iphone6plus_broken_300bw.png);
-}
-
-.iphone_6_plus:hover .iphone_6_plus_img {
-    background-image: url(images/iphone/iphone6plus_ok_300.png);
-}
-
-.iphone_6_img {
-    background-image: url(images/iphone/iphone6_broken_300bw.png);
-}
-
-.iphone_6:hover .iphone_6_img {
-    background-image: url(images/iphone/iphone6_ok_300.png);
-}
-
-.iphone_5c_img {
-    background-image: url(images/iphone/iphone5c_broken_300bw.png);
-}
-
-.iphone_5c:hover .iphone_5c_img {
-    background-image: url(images/iphone/iphone5c_ok_300.png);
-}
-
-.iphone_5s_img {
-    background-image: url(images/iphone/iphone5s_broken_300bw.png);
-}
-
-.iphone_5s:hover .iphone_5s_img {
-    background-image: url(images/iphone/iphone5s_ok_300.png);
-}
-
-.iphone_5_img {
-    background-image: url(images/iphone/iphone5_broken_300bw.png);
-}
-
-.iphone_5:hover .iphone_5_img {
-    background-image: url(images/iphone/iphone5_ok_300.png);
-}
-
-.iphone_4_4s_img {
-    background-image: url(images/iphone/iphone4_ok_300.png);
-}
-
-.iphone_4_4s:hover .iphone_4_4s_img {
-    background-image: url(images/iphone/iphone4s_ok_300.png);
+.ipad_1:hover .ipad_1_img {
+    background-image: url(images/ipad/ipad1_ok_255.png);
 }

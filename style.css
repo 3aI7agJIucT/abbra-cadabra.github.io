@@ -37,7 +37,7 @@ li {
     font-weight: bold;
 }
 
-.head > img {
+.head > a > img {
     width: 100px;
     height: 100px;
 }
