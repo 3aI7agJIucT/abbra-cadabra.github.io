@@ -47,14 +47,19 @@ li {
     font-size: 1.3rem;
 }
 
-.menu {
+.menu,
+main,
+.slider {
     width: 1024px;
     margin: 0 auto;
 }
 
-main{
-    width: 1024px;
-    margin: 0 auto;
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+
+main {
     background-color: black;
 }
 
