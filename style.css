@@ -65,7 +65,7 @@ main {
 
 .main-menu {
     display: flex;
-    background-color: #20232a; /* фон меню */
+    background-color: #20232a;
 }
 
 .main-menu > li {
@@ -267,17 +267,66 @@ h2 > img,
     text-decoration: none;
 }
 
+.footer_wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
 footer {
     width: 1024px;
     height: 200px;
     background-color: #282c34;
     margin: 0 auto;
+    border: 1px solid black;
 }
 
-footer a {
+footer > a {
     display: block;
 }
 
 footer img {
-    height: 40px;
+    height: 20px;
+}
+
+#footer_logo {
+    height: 70px;
+}
+
+.footer_menu a{
+    text-decoration: none;
+    color: #61dafb;
+    font-size: 1.2rem;
+}
+
+.footer_menu ul li {
+    margin-top: 6px;
+}
+
+.footer_menu ul li:first-child {
+    margin-top: 0;
+}
+
+.copyright {
+    width: 1024px;
+    margin: 0 auto;
+    height: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.connect img {
+    width: 20px;
+    height: 20px;
+}
+
+.connect > h3 > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer_logo a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 7px;
 }
