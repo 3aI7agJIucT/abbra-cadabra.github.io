@@ -59,11 +59,57 @@ h3 {
 .repair_iphone_5s,
 .repair_iphone_5c,
 .repair_iphone_5,
-.repair_iphone_4_4s,
-.our_pluses {
+.repair_iphone_4_4s {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+}
+
+.repair_iphone_11_pro_max:hover h2,
+.repair_iphone_11_pro:hover h2,
+.repair_iphone_11:hover h2,
+.repair_iphone_xs_max:hover h2,
+.repair_iphone_xs:hover h2,
+.repair_iphone_xr:hover h2,
+.repair_iphone_x:hover h2,
+.repair_iphone_8_plus:hover h2,
+.repair_iphone_8:hover h2,
+.repair_iphone_7_plus:hover h2,
+.repair_iphone_7:hover h2,
+.repair_iphone_6s_plus:hover h2,
+.repair_iphone_6s:hover h2,
+.repair_iphone_6_plus:hover h2,
+.repair_iphone_6:hover h2,
+.repair_iphone_se:hover h2,
+.repair_iphone_5s:hover,
+.repair_iphone_5c:hover,
+.repair_iphone_5:hover,
+.repair_iphone_4_4s:hover {
+    color: #61dafb;
+    transition: 1.5s;
+}
+
+.iphone_11_pro_max,
+.iphone_11_pro,
+.iphone_11,
+.iphone_xs_max,
+.iphone_xs,
+.iphone_xr,
+.iphone_x,
+.iphone_8_plus,
+.iphone_8,
+.iphone_7_plus,
+.iphone_7,
+.iphone_6s_plus,
+.iphone_6s,
+.iphone_6_plus,
+.iphone_6,
+.iphone_se,
+.iphone_5s,
+.iphone_5c,
+.iphone_5,
+.iphone_4_4s {
+    width: 35%;
 }
 
 .iphone_11_pro_max_img, .repair_iphone_11_pro_max:hover .iphone_11_pro_max_img,
@@ -257,56 +303,24 @@ h3 {
 
 /* ------------------------------------------------------------------------------------------- */
 
-.repair_iphone_11_pro_max:hover h2,
-.repair_iphone_11_pro:hover h2,
-.repair_iphone_11:hover h2,
-.repair_iphone_xs_max:hover h2,
-.repair_iphone_xs:hover h2,
-.repair_iphone_xr:hover h2,
-.repair_iphone_x:hover h2,
-.repair_iphone_8_plus:hover h2,
-.repair_iphone_8:hover h2,
-.repair_iphone_7_plus:hover h2,
-.repair_iphone_7:hover h2,
-.repair_iphone_6s_plus:hover h2,
-.repair_iphone_6s:hover h2,
-.repair_iphone_6_plus:hover h2,
-.repair_iphone_6:hover h2,
-.repair_iphone_se:hover h2,
-.repair_iphone_5s:hover,
-.repair_iphone_5c:hover,
-.repair_iphone_5:hover,
-.repair_iphone_4_4s:hover {
-    color: #61dafb;
-    transition: 1.5s;
+.our_pluses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
 }
 
-.iphone_11_pro_max,
-.iphone_11_pro,
-.iphone_11,
-.iphone_xs_max,
-.iphone_xs,
-.iphone_xr,
-.iphone_x,
-.iphone_8_plus,
-.iphone_8,
-.iphone_7_plus,
-.iphone_7,
-.iphone_6s_plus,
-.iphone_6s,
-.iphone_6_plus,
-.iphone_6,
-.iphone_se,
-.iphone_5s,
-.iphone_5c,
-.iphone_5,
-.iphone_4_4s {
-    width: 35%;
+.quality,
+.speed,
+.warranty,
+.confidentiality {
+    width: 50%;
 }
 
 .quality > img,
 .speed > img,
-.warranty > img {
+.warranty > img,
+.confidentiality > img {
     width: 75px;
     height: 75px;
     display: block;
