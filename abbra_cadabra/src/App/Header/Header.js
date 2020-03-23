@@ -1,8 +1,6 @@
 import React from 'react'
 
-import './header.css'
-
-import Repairapple from './Repair/Apple/Repairapple'
+import '../Header/header.css'
 
 const Header = () => {
 	return ( 
@@ -24,7 +22,7 @@ const Header = () => {
                   <li><a href="#">О нас</a></li>
                   <li><span>Ремонт</span>
                       <ul className="sub-menu-repair">
-                          <li><a href=<Repairapple/>>Apple</a>
+                          <li><a href="#">Apple</a>
                               <ul className="repair-apple">
                                   <li><a href="repair-apple-iphone.html">iPhone</a></li>
                                   <li><a href="#">iPad</a></li>

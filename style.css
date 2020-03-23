@@ -269,7 +269,7 @@ h2 > img,
 
 .footer_wrap {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 footer {
@@ -277,7 +277,6 @@ footer {
     height: 200px;
     background-color: #282c34;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 footer > a {

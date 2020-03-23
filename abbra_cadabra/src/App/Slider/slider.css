@@ -3,8 +3,7 @@
   position: relative;
   overflow: hidden;
   max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 /* стили для обёртки, в которой заключены слайды */

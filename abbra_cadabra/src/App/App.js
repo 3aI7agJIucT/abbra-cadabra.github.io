@@ -1,17 +1,27 @@
 import React from 'react';
 
 import '../reset.css';
+import '../style.css'
+
+import '../App/Slider/slide'
 
 import Header from './Header/Header'
-import Slider from './Slider/Slider'
+import Main from './Main/Main'
+import Footer from './Footer/Footer'
+import ReactSlickDemo from './Slider/Slider';
 
 function App() {
   return (
     <div className="App">
+
       <Header/>
-      {/* <Slider/>
+
+      <ReactSlickDemo/>
+      
       <Main/>
-      <Footer/> */}
+
+      <Footer/>
+
     </div>
   );
 }
