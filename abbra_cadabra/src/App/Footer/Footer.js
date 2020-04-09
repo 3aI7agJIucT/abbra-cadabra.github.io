@@ -1,14 +1,15 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
-import './footer.css'
+import './Footer.css'
 
 const Footer = () => {
 	return ( 
         <footer>
         <div className="footer_wrap">
             <div className="footer_logo">
-                <a href="index.html"><img src="images/apple_jobs_genius.png" alt="" id="footer_logo"/>
-                </a>
+                <Link to="/"><img src="images/apple_jobs_genius.png" alt="" id="footer_logo"/>
+                </Link>
                 <a href="https://www.facebook.com/3aI7agJIucT" target="_blank">
                     <img src="images/facebook_logo.png" alt="facebook"/>FaceBook
                 </a>
@@ -23,7 +24,7 @@ const Footer = () => {
                     <li><a href="#">Устройства</a></li>
                     <li><a href="#">Аксессуары</a></li>
                     <li><a href="news.html">Новости и акции</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><Link to="/contacts">Контакты</Link></li>
                 </ul>
             </div>
             <div className="footer_contacts">

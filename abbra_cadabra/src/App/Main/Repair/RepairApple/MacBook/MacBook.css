@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+main h2 {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+main h3 {
+    font-size: 1.3rem;
+    margin-top: 5px;
+}
+
+.repair_apple_watch,
+.breakdowns_list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .breakdowns_list {
+    margin-top: 10px;
+} */
+
+/* .breakdowns_list > ul > li {
+    font-size: 1.5rem;
+    margin: 5px 0;
+} */
+
+.breakdowns_list img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.power_breakdown,
+.battery_breakdown,
+.charge_breakdown,
+.water_breakdown,
+.glass_breakdown,
+.display_breakdown,
+.touch_breakdown,
+.body_breakdown,
+.speaker_breakdown,
+.mic_breakdown,
+.home_breakdown,
+.camera_breakdown,
+.cell_breakdown,
+.wifi_breakdown,
+.itunes_breakdown {
+    position: relative;
+    width: 25%;
+    margin: 5px 0;
+}
+
+.power_description,
+.battery_description,
+.charge_description,
+.water_description,
+.glass_description,
+.display_description,
+.touch_description,
+.body_description,
+.speaker_description,
+.mic_description,
+.home_description,
+.camera_description,
+.cell_description,
+.wifi_description,
+.itunes_description {
+    display: none;
+}
+
+.power_breakdown:hover .power_description,
+.battery_breakdown:hover .battery_description,
+.charge_breakdown:hover .charge_description,
+.water_breakdown:hover .water_description,
+.glass_breakdown:hover .glass_description,
+.display_breakdown:hover .display_description,
+.touch_breakdown:hover .touch_description,
+.body_breakdown:hover .body_description,
+.speaker_breakdown:hover .speaker_description,
+.mic_breakdown:hover .mic_description,
+.home_breakdown:hover .home_description,
+.camera_breakdown:hover .camera_description,
+.cell_breakdown:hover .cell_description,
+.wifi_breakdown:hover .wifi_description,
+.itunes_breakdown:hover .itunes_description {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: 25px;
+    left: 40px;
+    background-color: #61dafb;
+    color: black;
+    border-radius: 5px;
+}
+
+.watch_5,
+.watch_4,
+.watch_3,
+.watch_2,
+.watch_1 {
+    width: 25%;
+    margin: 20px 0;
+}
+
+.macbook > a,
+.watch_5 > a,
+.watch_4 > a,
+.watch_3 > a,
+.watch_2 > a,
+.watch_1 > a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.macbook > a:hover,
+.watch_5 > a:hover,
+.watch_4 > a:hover,
+.watch_3 > a:hover,
+.watch_2 > a:hover,
+.watch_1 > a:hover {
+    color: #61dafb;
+    transition: 0.5s;
+}
+
+.watch_5_img, .watch_5:hover .watch_5_img,
+.watch_4_img, .watch_4:hover .watch_4_img,
+.watch_3_img, .watch_3:hover .watch_3_img,
+.watch_2_img, .watch_2:hover .watch_2_img,
+.watch_1_img, .watch_1:hover .watch_1_img {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+}

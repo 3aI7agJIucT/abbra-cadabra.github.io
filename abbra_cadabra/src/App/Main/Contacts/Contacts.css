@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+.contacts {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.cont-phones > li > img, 
+h3 > img,
+h2 > img,
+#clock1, 
+#clock2 {
+    width: 20px;
+    height: 20px;
+}
+
+.cont-phones > li, 
+.address > li {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.address > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#contacts {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.graph {
+    display: inline-block;
+    font-size: 1.3rem;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.cont-info {
+    display: flex;
+    justify-content: space-between;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.map {
+    width: 640px;
+    margin-top: 20px;
+}
+
+.info {
+    width: 35%;
+}
+
+#map_pointer {
+    width: 22px;
+    height: 22px;
+}
+
+#email {
+    width: 22px;
+    height: 15px;
+}
+
+.info > h2 {
+    margin: 20px 0 5px 0;
+}
+
+.info > h3 > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1;
+    text-align: left;
+}

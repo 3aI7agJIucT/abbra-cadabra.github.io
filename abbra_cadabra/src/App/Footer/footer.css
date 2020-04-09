@@ -7,6 +7,10 @@
     font-size: 1.3rem;
 }
 
+h3 {
+    font-size: 1rem;
+}
+
 .footer_wrap {
     display: flex;
     justify-content: space-between;

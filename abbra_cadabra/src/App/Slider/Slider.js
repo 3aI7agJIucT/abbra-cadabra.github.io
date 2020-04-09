@@ -3,7 +3,7 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./slider.css";
+import "./Slider.css";
 
 class ReactSlickDemo extends React.Component {
   render() {
